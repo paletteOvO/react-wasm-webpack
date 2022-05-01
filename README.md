@@ -2,4 +2,14 @@
 
 Using Web Assembly in a React App
 
-Check justfile to start
+# Requirement
+
+- rust
+- node
+- just
+- wasm-pack
+
+# Build
+
+`npm install`
+`just build`
