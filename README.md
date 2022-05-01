@@ -2,4 +2,4 @@
 
 Using Web Assembly in a React App
 
-Check justfile for start
+Check justfile to start
