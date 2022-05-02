@@ -32,6 +32,10 @@ module.exports = {
         test: /\.wasm$/,
         type: 'asset/inline',
       },
+      {
+        test: /\.(png|svg|jpg|jpeg|gif)$/i,
+        type: 'asset/resource',
+      },
     ],
   },
 };

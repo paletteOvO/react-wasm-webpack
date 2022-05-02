@@ -1,13 +1,9 @@
 build:
-  wasm-pack build --target=web wasm-module
+  wasm-pack build --target=web wasm-pack-template
   npx webpack
 
 dev:
   npx react-scripts start dev
-
-clean:
-  rm public/*
-  cp index.html public/index.html
 
 server:
   npx http-server

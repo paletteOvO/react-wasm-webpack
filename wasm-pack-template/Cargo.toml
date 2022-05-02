@@ -1,5 +1,5 @@
 [package]
-name = "wasm-module"
+name = "wasm-pack-template"
 version = "0.1.0"
 authors = ["paletteOvO <paletteOvO@outlook.com>"]
 edition = "2018"

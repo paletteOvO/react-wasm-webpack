@@ -1,16 +1,26 @@
 import React from 'react';
+import logo from './logo.svg';
 import './App.css';
 
-import init from 'wasm-module';
-import wasmData from 'wasm-module/wasm_module_bg.wasm';
-
-const wasmPromise = init(wasmData);
-
 function App() {
-  wasmPromise.then((wasm) => {
-    wasm.greet();
-  });
-  return <div className="App"> </div>;
+  return (
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.tsx</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
+    </div>
+  );
 }
 
 export default App;
