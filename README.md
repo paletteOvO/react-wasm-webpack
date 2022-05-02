@@ -1,3 +1,22 @@
+# Using Web Assembly in a React App
+
+Check justfile to start
+# Requirement
+
+- rust
+- node
+- just
+- wasm-pack
+
+# Build
+
+```
+npm install
+```
+```
+just build
+```
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
